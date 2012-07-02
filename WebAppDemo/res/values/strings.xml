@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JasonButz WebApp Demo</string>
+    <string name="url">file:///android_asset/index.html</string>
+    <string name="host">jasonbutz.info</string>
+</resources>
