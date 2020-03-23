@@ -41,7 +41,7 @@ public class Main extends Activity {
 				// view.loadUrl(url);
 				// return true;
 				Resources res = getResources();
-				if (Uri.parse(url).getHost().contains(res.getString(R.string.host)) ||
+				if (Uri.parse(url).getHost().endsWith("."+res.getString(R.string.host)) ||
 						Uri.parse(url).getScheme().contains("file")) {
 					// This is my web site, so do not override; let my WebView
 					// load the page
